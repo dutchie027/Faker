@@ -88,7 +88,7 @@ class UserAgent extends Base
      *
      * @return string
      */
-    public static function edge()
+    public static function msedge()
     {
         $saf = self::numberBetween(531, 537) . '.' . self::numberBetween(0, 2);
         $chrv = self::numberBetween(79, 99) . '.0';

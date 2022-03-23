@@ -42,6 +42,6 @@ final class UserAgentTest extends TestCase
     
     public function testMSEdgeUserAgent()
     {
-        self::assertStringContainsString('Edg', UserAgent::edge());
+        self::assertStringContainsString('Edg', UserAgent::msedge());
     }
 }

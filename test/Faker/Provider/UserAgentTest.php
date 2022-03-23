@@ -39,7 +39,7 @@ final class UserAgentTest extends TestCase
     {
         self::assertStringContainsString('(KHTML, like Gecko) Chrome/', UserAgent::chrome());
     }
-    
+
     public function testMSEdgeUserAgent()
     {
         self::assertStringContainsString('Edg', UserAgent::msedge());

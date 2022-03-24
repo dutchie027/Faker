@@ -205,6 +205,7 @@ class UserAgent extends Base
     public static function iosMobileToken()
     {
         $iosVer = self::numberBetween(13, 15) . '_' . self::numberBetween(0, 2);
+
         return 'iPhone; CPU iPhone OS ' . $iosVer . ' like Mac OS X';
     }
 
